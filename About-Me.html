@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Sports Passion</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #ffffff;
+            color: #333;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                        url('https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=1600&h=600&fit=crop');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 120px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .hero p {
+            font-size: 1.3em;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .section {
+            background: white;
+            margin: 40px auto;
+            padding: 60px 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .section h2 {
+            color: #000;
+            font-size: 2.2em;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #000;
+        }
+
+        .section p {
+            font-size: 1.1em;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-top: 30px;
+            align-items: center;
+        }
+
+        .section img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .skill-box {
+            background: #f9f9f9;
+            padding: 30px;
+            border-radius: 8px;
+            border-left: 4px solid #000;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .skill-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        .skill-box h3 {
+            color: #000;
+            font-size: 1.4em;
+            margin-bottom: 15px;
+        }
+
+        .skill-box p {
+            margin: 0;
+            font-size: 1em;
+        }
+
+        .goal-section {
+            background: #000;
+            color: white;
+            padding: 80px 40px;
+            text-align: center;
+            border-radius: 8px;
+            margin: 40px auto;
+        }
+
+        .goal-section h2 {
+            color: white;
+            border-bottom: 3px solid white;
+            display: inline-block;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+
+        .goal-section p {
+            font-size: 1.2em;
+            line-height: 1.9;
+            max-width: 900px;
+            margin: 0 auto 25px auto;
+            color: white;
+        }
+
+        footer {
+            background: #000;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 60px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.2em;
+            }
+
+            .hero p {
+                font-size: 1.1em;
+            }
+
+            .two-column {
+                grid-template-columns: 1fr;
+            }
+
+            .section {
+                padding: 40px 25px;
+            }
+
+            .goal-section {
+                padding: 50px 25px;
+            }
+
+            .skills-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>About Me</h1>
+        <p>From a childhood passion for sports to building a community-focused sporting goods business</p>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>My Journey: From Childhood Passion to Business Reality</h2>
+            <div class="two-column">
+                <img src="https://raw.githubusercontent.com/placeholder-image/placeholder-image.github.io/main/soccer-facility.jpg" alt="My passion for sports" style="order: 2;">
+                <div style="order: 1;">
+                    <p>From the moment I could walk, I had a ball at my feet. Sports wasn't just something I did—it was who I was. Whether it was kicking a soccer ball in the backyard until sunset, playing with neighborhood friends, or glued to the TV watching every game I could find, sports shaped my entire childhood. That passion never faded; it only grew stronger.</p>
+                    <p>As I got older, I realized that my love for sports went beyond just playing. I found myself analyzing games, understanding what made teams successful, and appreciating the business side of athletics. I noticed how the right equipment could transform someone's performance, how proper gear could prevent injuries, and how having access to quality sporting goods could mean the difference between giving up and pushing forward.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Why I Started This Business</h2>
+            <div class="two-column">
+                <div>
+                    <p>I started this business because I saw a gap—and an opportunity to make a real difference. Too many people in our community were either paying too much for decent sports equipment or settling for low-quality gear that wouldn't last. Parents were frustrated trying to find affordable options for their kids' ever-changing sports interests. Amateur athletes needed expert guidance but were met with pushy salespeople who didn't really understand their needs.</p>
+                    <p>I knew there had to be a better way. A place where passion for sports meets genuine customer care. Where knowledge isn't just recited from a tag, but comes from real experience. Where every person who walks through the door—whether they're a seasoned athlete or a parent buying their child's first equipment—feels welcomed, understood, and supported.</p>
+                </div>
+                <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=400&fit=crop" alt="Sports equipment store">
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>What I Bring to the Table</h2>
+            <div class="skills-container">
+                <div class="skill-box">
+                    <h3>Personal Experience</h3>
+                    <p>I've played multiple sports throughout my life, with a particular passion for soccer. I understand equipment from a user's perspective—I know what works, what doesn't, and why it matters.</p>
+                </div>
+                <div class="skill-box">
+                    <h3>Community Focus</h3>
+                    <p>I believe in building relationships, not just making sales. Your success in your sport matters to me, and I'm invested in helping you achieve your goals.</p>
+                </div>
+                <div class="skill-box">
+                    <h3>Continuous Learning</h3>
+                    <p>The sports industry evolves constantly. I stay current with new technologies, trends, and products so I can offer the best advice and selection.</p>
+                </div>
+                <div class="skill-box">
+                    <h3>Business Acumen</h3>
+                    <p>I combine my sports passion with solid business skills—inventory management, customer service excellence, and financial planning—to create a sustainable business that serves the community long-term.</p>
+                </div>
+                <div class="skill-box">
+                    <h3>Genuine Enthusiasm</h3>
+                    <p>This isn't just work for me. Every day, I get to talk about sports, help people pursue their passions, and be surrounded by the energy of athletics. That enthusiasm is infectious, and it's what makes this business special.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="goal-section">
+            <h2>The Ultimate Goal</h2>
+            <p>My vision is simple but ambitious: to create the go-to destination for sporting goods in our community. A place where everyone—from youth league players to weekend warriors to serious competitors—can find what they need, get expert advice, and feel like they're part of something bigger.</p>
+            <p>But beyond the business success, I want to contribute to a more active, healthy, and connected community. I want to see more kids playing sports, more adults staying active, and more people discovering the joy and discipline that athletics can bring to life.</p>
+            <p><strong>This business is my way of turning a lifelong passion into something meaningful—not just for me, but for everyone who shares that love of sports and competition.</strong></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 SportsPro - Your Local Sporting Goods Store</p>
+        <p>Passion • Quality • Community</p>
+    </footer>
+</body>
+</html>
